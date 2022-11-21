@@ -98,6 +98,13 @@ import testComponents.BaseTests;
 			
 		}
 		
+		@AfterClass 
+		public void closeOut() 
+		{
+			driver.quit();
+		}
+		
+		
 
 		
 		
